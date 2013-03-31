@@ -20,3 +20,7 @@ Known issues:
 * Bluetooth SCO is not working
 * HDMI is not tested
 * Properiatary softwares are not working ( DMB, etc...)
+
+CyanogenMod10.1 device tree for IM-T100K (SKY Vega No.5) - cm10.1 Branch by lolhi
+
+not booting
