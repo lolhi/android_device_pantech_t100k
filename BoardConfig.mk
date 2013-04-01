@@ -125,3 +125,7 @@ BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/pantech/t100k/recovery/recovery
 #TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 BOARD_UMS_LUNFILE := "/sys/devices/platform/msm_hsusb/gadget/lun%d/file"
 TARGET_USERIMAGES_USE_EXT4 := true
+
+# bluetooth
+BOARD_BLUEDROID_VENDOR_CONF := device/pantech/t100k/bluetooth/vnd_t100k.txt
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/pantech/t100k/bluetooth
