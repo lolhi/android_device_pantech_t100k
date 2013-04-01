@@ -200,9 +200,6 @@ else
 	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
 
-# RIL fixes
-FRAMEWORKS_BASE_SUBDIRS += ../../$(LOCAL_PATH)/ril/
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel \
 
