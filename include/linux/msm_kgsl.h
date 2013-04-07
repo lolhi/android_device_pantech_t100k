@@ -459,6 +459,14 @@ struct kgsl_timestamp_event_genlock {
 	int handle; /* Handle of the genlock lock to release */
 };
 
+/* A fence timestamp event releases an existing lock on timestamp expire */
+
+#define KGSL_TIMESTAMP_EVENT_FENCE 2
+
+struct kgsl_timestamp_event_fence {
+	int fence_fd; /* Fence to signal */
+};
+
 #ifdef __KERNEL__
 #ifdef CONFIG_MSM_KGSL_DRM
 int kgsl_gem_obj_addr(int drm_fd, int handle, unsigned long *start,
